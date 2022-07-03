@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D0BA402286DCB0B00010EDD /* webrtcwebviewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BA401286DCB0B00010EDD /* webrtcwebviewApp.swift */; };
+		2D0BA404286DCB0B00010EDD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BA403286DCB0B00010EDD /* ContentView.swift */; };
+		2D0BA406286DCB0E00010EDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0BA405286DCB0E00010EDD /* Assets.xcassets */; };
+		2D0BA409286DCB0E00010EDD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D0BA408286DCB0E00010EDD /* Preview Assets.xcassets */; };
+		2D0BA413286DCB0F00010EDD /* webrtcwebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BA412286DCB0F00010EDD /* webrtcwebviewTests.swift */; };
+		2D0BA41D286DCB0F00010EDD /* webrtcwebviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BA41C286DCB0F00010EDD /* webrtcwebviewUITests.swift */; };
+		2D0BA41F286DCB0F00010EDD /* webrtcwebviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BA41E286DCB0F00010EDD /* webrtcwebviewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D0BA40F286DCB0F00010EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0BA3F6286DCB0B00010EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0BA3FD286DCB0B00010EDD;
+			remoteInfo = webrtcwebview;
+		};
+		2D0BA419286DCB0F00010EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D0BA3F6286DCB0B00010EDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D0BA3FD286DCB0B00010EDD;
+			remoteInfo = webrtcwebview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D0BA3FE286DCB0B00010EDD /* webrtcwebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webrtcwebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0BA401286DCB0B00010EDD /* webrtcwebviewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webrtcwebviewApp.swift; sourceTree = "<group>"; };
+		2D0BA403286DCB0B00010EDD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D0BA405286DCB0E00010EDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D0BA408286DCB0E00010EDD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D0BA40E286DCB0F00010EDD /* webrtcwebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webrtcwebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0BA412286DCB0F00010EDD /* webrtcwebviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webrtcwebviewTests.swift; sourceTree = "<group>"; };
+		2D0BA418286DCB0F00010EDD /* webrtcwebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webrtcwebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D0BA41C286DCB0F00010EDD /* webrtcwebviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webrtcwebviewUITests.swift; sourceTree = "<group>"; };
+		2D0BA41E286DCB0F00010EDD /* webrtcwebviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webrtcwebviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D0BA3FB286DCB0B00010EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0BA40B286DCB0F00010EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0BA415286DCB0F00010EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D0BA3F5286DCB0B00010EDD = {
+			isa = PBXGroup;
+			children = (
+				2D0BA400286DCB0B00010EDD /* webrtcwebview */,
+				2D0BA411286DCB0F00010EDD /* webrtcwebviewTests */,
+				2D0BA41B286DCB0F00010EDD /* webrtcwebviewUITests */,
+				2D0BA3FF286DCB0B00010EDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D0BA3FF286DCB0B00010EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D0BA3FE286DCB0B00010EDD /* webrtcwebview.app */,
+				2D0BA40E286DCB0F00010EDD /* webrtcwebviewTests.xctest */,
+				2D0BA418286DCB0F00010EDD /* webrtcwebviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D0BA400286DCB0B00010EDD /* webrtcwebview */ = {
+			isa = PBXGroup;
+			children = (
+				2D0BA401286DCB0B00010EDD /* webrtcwebviewApp.swift */,
+				2D0BA403286DCB0B00010EDD /* ContentView.swift */,
+				2D0BA405286DCB0E00010EDD /* Assets.xcassets */,
+				2D0BA407286DCB0E00010EDD /* Preview Content */,
+			);
+			path = webrtcwebview;
+			sourceTree = "<group>";
+		};
+		2D0BA407286DCB0E00010EDD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D0BA408286DCB0E00010EDD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D0BA411286DCB0F00010EDD /* webrtcwebviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0BA412286DCB0F00010EDD /* webrtcwebviewTests.swift */,
+			);
+			path = webrtcwebviewTests;
+			sourceTree = "<group>";
+		};
+		2D0BA41B286DCB0F00010EDD /* webrtcwebviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D0BA41C286DCB0F00010EDD /* webrtcwebviewUITests.swift */,
+				2D0BA41E286DCB0F00010EDD /* webrtcwebviewUITestsLaunchTests.swift */,
+			);
+			path = webrtcwebviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D0BA3FD286DCB0B00010EDD /* webrtcwebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0BA422286DCB0F00010EDD /* Build configuration list for PBXNativeTarget "webrtcwebview" */;
+			buildPhases = (
+				2D0BA3FA286DCB0B00010EDD /* Sources */,
+				2D0BA3FB286DCB0B00010EDD /* Frameworks */,
+				2D0BA3FC286DCB0B00010EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webrtcwebview;
+			productName = webrtcwebview;
+			productReference = 2D0BA3FE286DCB0B00010EDD /* webrtcwebview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D0BA40D286DCB0F00010EDD /* webrtcwebviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0BA425286DCB0F00010EDD /* Build configuration list for PBXNativeTarget "webrtcwebviewTests" */;
+			buildPhases = (
+				2D0BA40A286DCB0F00010EDD /* Sources */,
+				2D0BA40B286DCB0F00010EDD /* Frameworks */,
+				2D0BA40C286DCB0F00010EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0BA410286DCB0F00010EDD /* PBXTargetDependency */,
+			);
+			name = webrtcwebviewTests;
+			productName = webrtcwebviewTests;
+			productReference = 2D0BA40E286DCB0F00010EDD /* webrtcwebviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D0BA417286DCB0F00010EDD /* webrtcwebviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D0BA428286DCB0F00010EDD /* Build configuration list for PBXNativeTarget "webrtcwebviewUITests" */;
+			buildPhases = (
+				2D0BA414286DCB0F00010EDD /* Sources */,
+				2D0BA415286DCB0F00010EDD /* Frameworks */,
+				2D0BA416286DCB0F00010EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D0BA41A286DCB0F00010EDD /* PBXTargetDependency */,
+			);
+			name = webrtcwebviewUITests;
+			productName = webrtcwebviewUITests;
+			productReference = 2D0BA418286DCB0F00010EDD /* webrtcwebviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D0BA3F6286DCB0B00010EDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					2D0BA3FD286DCB0B00010EDD = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					2D0BA40D286DCB0F00010EDD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2D0BA3FD286DCB0B00010EDD;
+					};
+					2D0BA417286DCB0F00010EDD = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 2D0BA3FD286DCB0B00010EDD;
+					};
+				};
+			};
+			buildConfigurationList = 2D0BA3F9286DCB0B00010EDD /* Build configuration list for PBXProject "webrtcwebview" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D0BA3F5286DCB0B00010EDD;
+			productRefGroup = 2D0BA3FF286DCB0B00010EDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D0BA3FD286DCB0B00010EDD /* webrtcwebview */,
+				2D0BA40D286DCB0F00010EDD /* webrtcwebviewTests */,
+				2D0BA417286DCB0F00010EDD /* webrtcwebviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D0BA3FC286DCB0B00010EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0BA409286DCB0E00010EDD /* Preview Assets.xcassets in Resources */,
+				2D0BA406286DCB0E00010EDD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0BA40C286DCB0F00010EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0BA416286DCB0F00010EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D0BA3FA286DCB0B00010EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0BA404286DCB0B00010EDD /* ContentView.swift in Sources */,
+				2D0BA402286DCB0B00010EDD /* webrtcwebviewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0BA40A286DCB0F00010EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0BA413286DCB0F00010EDD /* webrtcwebviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D0BA414286DCB0F00010EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0BA41D286DCB0F00010EDD /* webrtcwebviewUITests.swift in Sources */,
+				2D0BA41F286DCB0F00010EDD /* webrtcwebviewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D0BA410286DCB0F00010EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0BA3FD286DCB0B00010EDD /* webrtcwebview */;
+			targetProxy = 2D0BA40F286DCB0F00010EDD /* PBXContainerItemProxy */;
+		};
+		2D0BA41A286DCB0F00010EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D0BA3FD286DCB0B00010EDD /* webrtcwebview */;
+			targetProxy = 2D0BA419286DCB0F00010EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D0BA420286DCB0F00010EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D0BA421286DCB0F00010EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D0BA423286DCB0F00010EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"webrtcwebview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need Camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Microphone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.webrtcwebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D0BA424286DCB0F00010EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"webrtcwebview/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need Camera";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Microphone";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.webrtcwebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D0BA426286DCB0F00010EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.webrtcwebviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webrtcwebview.app/webrtcwebview";
+			};
+			name = Debug;
+		};
+		2D0BA427286DCB0F00010EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.webrtcwebviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webrtcwebview.app/webrtcwebview";
+			};
+			name = Release;
+		};
+		2D0BA429286DCB0F00010EDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.webrtcwebviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = webrtcwebview;
+			};
+			name = Debug;
+		};
+		2D0BA42A286DCB0F00010EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.webrtcwebviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = webrtcwebview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D0BA3F9286DCB0B00010EDD /* Build configuration list for PBXProject "webrtcwebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0BA420286DCB0F00010EDD /* Debug */,
+				2D0BA421286DCB0F00010EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0BA422286DCB0F00010EDD /* Build configuration list for PBXNativeTarget "webrtcwebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0BA423286DCB0F00010EDD /* Debug */,
+				2D0BA424286DCB0F00010EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0BA425286DCB0F00010EDD /* Build configuration list for PBXNativeTarget "webrtcwebviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0BA426286DCB0F00010EDD /* Debug */,
+				2D0BA427286DCB0F00010EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D0BA428286DCB0F00010EDD /* Build configuration list for PBXNativeTarget "webrtcwebviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D0BA429286DCB0F00010EDD /* Debug */,
+				2D0BA42A286DCB0F00010EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D0BA3F6286DCB0B00010EDD /* Project object */;
+}
